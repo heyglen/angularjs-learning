@@ -2,10 +2,17 @@
 <html ng-app="app">
 	<head>
 		<title></title>
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
 	</head>
 	<body>
 		<h1>Hello World</h1>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+		<div ng-controller="MainController">
+			<div ng-repeat="element in myarray">				
+				{{ element }}
+			</div>
+			<button ng-click="inc()">Click Me</button>
+		</div>
+		<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script> -->
 	</body>
 </html>
