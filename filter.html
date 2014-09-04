@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title></title>
+        <style type="text/css">
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+        }
+        </style>
+        <script type="text/javascript" src="angular.min.js"></script>
+        <script type="text/javascript" src="filter.js"></script>
+    </head>
+    <body>
+        <div ng-controller="MainController">
+            <h2>User Name Filter</h2>
+            <input ng-model='myfilter.name'>
+            <div ng-repeat="user in mydata.val | filter:myfilter | orderBy: 'age' | limitTo:2">
+                {{ user }}
+            </div>
+            <h2>Character Limit Filter</h2>
+            <input ng-model='custom_filter.str'>
+            {{ custom_filter.str | charlimit}}
+            <h2>User Can drink in US filter</h2>
+            <input ng-model='age_filter.int'>
+            <div ng-repeat="user in mydata.val | candrink:age_filter.int">
+                {{ user }}
+            </div>
+        </div>
+    </body>
+</html>

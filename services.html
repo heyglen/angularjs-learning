@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title></title>
+        <style type="text/css">
+            [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+                display: none !important;
+            }
+        </style>
+        <script type="text/javascript" src="angular.min.js"></script>
+        <script type="text/javascript" src="services.js"></script>
+    </head>
+    <body>
+        <div ng-controller="MainController">
+            <h3>{{ user }}</h3>
+            <h4>{{ myData }}</h4>
+            <span>{{ exposed }}</span>
+        </div>
+    </body>
+</html>
