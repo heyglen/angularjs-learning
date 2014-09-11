@@ -61,12 +61,27 @@ app.service('myService', function(){
     }
 })
 
-
+// myTest is expanded to myTestProvider
+// Providers are initalized on angualr startup... before other services
 app.provider('myTest', function(){
     var private_attribute = "Private"
     var private_method = function(){}
-
     return {
-
+        public_method: function(){},
+        setData: function(data){
+            private_attribute = data
+        },
+        $get: function() {
+            return {
+                public_method: function(){
+                    return "Provider Return " + private_attribute
+                }
+            }
+        },
+        public_method: private_method
     }
+})
+
+app.config(function(myTestProvider) {
+    myTestProvider.setData("Initialized")
 })

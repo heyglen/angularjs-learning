@@ -1,0 +1,8 @@
+<div ng-controller="modelEditCtrl">
+  <form novalidate role="form" class="form-horizontal">
+    <div ng-repeat="field in model.attr">
+      <modelattr name="{{ field.name }}" type="{{ field.type }}" help="{{ field.help }}"></modelattr>
+    </div>
+    <button class="btn btn-default">Submit</button>
+  </form>
+</div>

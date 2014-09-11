@@ -1,0 +1,16 @@
+{
+  "model": "VLAN",
+  "primary_key" : 1,
+  "attr" :
+      [{
+        "name": "VLAN ID",
+        "value": 28,
+        "type": "IP",
+        "help" : ""
+      }, {
+        "name": "Name",
+        "value": "vlan-28",
+        "type": "string",
+        "help" : ""
+      }]
+}

@@ -1,0 +1,14 @@
+<div ng-controller="modelListCtrl">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th ng-repeat="header in columns">{{ header }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="model in all" ng-click="editModel(model)" >
+                <td class="text-left" ng-repeat="attr in model.attr">{{ attr.value }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

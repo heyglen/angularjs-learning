@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"private",
+				"private_attribute"
+			],
+			[
+				"myTest",
+				"myTestProvider"
+			]
 		]
 	},
 	"buffers":
@@ -11,31 +19,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 682,
+				"buffer_size": 1360,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "services.html",
+			"file": "css/brand.css",
 			"settings":
 			{
-				"buffer_size": 614,
+				"buffer_size": 62,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app.js",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 198,
+				"buffer_size": 485,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "services.js",
+			"file": "json/model.json",
 			"settings":
 			{
-				"buffer_size": 1636,
+				"buffer_size": 218,
 				"line_ending": "Windows"
 			}
 		}
@@ -43,28 +51,52 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 256.0,
 		"selected_items":
 		[
 			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
 				"comment",
-				"Toggle Comment"
+				"Toggle Block Comment"
 			],
 			[
-				"html",
-				"Set Syntax: HTML (Angular.js)"
+				"coffee",
+				"Set Syntax: CoffeeScript"
 			],
 			[
-				"syntax angu",
-				"Set Syntax: HTML (Angular.js)"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"java",
 				"Set Syntax: JavaScript"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"html",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax angu",
+				"Set Syntax: HTML (Angular.js)"
 			],
 			[
 				"html an",
@@ -99,10 +131,6 @@
 				"Set Syntax: HTML (Angular.js)"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"syntax html an",
 				"Set Syntax: HTML (Angular.js)"
 			],
@@ -132,11 +160,31 @@
 	},
 	"file_history":
 	[
+		"/C/Users/ghar/code/angularjs/angularjs-learning/js/services.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/directives.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/fonts/open-sans.css",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/css/brand.css",
+		"/C/Users/ghar/Downloads/jquery-1.11.1.min.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/directives.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/model.json",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/app.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/angular.min.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/open-sans.css",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/resolve.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/resolve.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/angular-route.min.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/promise.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/promise.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/watch.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/watch.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/decorator.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/decorator.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/decocrator.html",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/services.js",
+		"/C/Users/ghar/code/angularjs/angularjs-learning/services.html",
 		"/C/Users/ghar/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/ghar/code/angularjs/angularjs-learning/filter.js",
 		"/C/Users/ghar/code/angularjs/angularjs-learning/filter.html",
-		"/C/Users/ghar/code/angularjs/angularjs-learning/watch.js",
-		"/C/Users/ghar/code/angularjs/angularjs-learning/watch.html",
 		"/C/Users/ghar/code/angularjs/angularjs-learning/template.js",
 		"/C/Users/ghar/code/angularjs/angularjs-learning/templating.html",
 		"/C/Users/ghar/code/angularjs/angularjs-learning/Notes",
@@ -162,6 +210,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sync",
+			"CI",
+			"h",
+			"h1",
+			"$routeProvider",
+			"=",
+			"Isolent",
+			"myFactory.getData()",
 			"private_function",
 			"Public",
 			"h4",
@@ -185,7 +241,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -194,15 +250,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 682,
+						"buffer_size": 1360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								664,
-								664
+								753,
+								753
 							]
 						],
 						"settings":
@@ -211,32 +267,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 14.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "services.html",
+					"file": "css/brand.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 614,
+						"buffer_size": 62,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								59,
+								59
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -246,64 +336,30 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								198
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "services.js",
+					"file": "json/model.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1636,
+						"buffer_size": 218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1636,
-								1636
+								151,
+								151
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 579.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -318,7 +374,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -374,8 +430,24 @@
 		"selected_items":
 		[
 			[
+				"",
+				"\\\\FSDKBA146\\ghar\\scratch-pad.sublime-project"
+			],
+			[
+				"scra",
+				"\\\\FSDKBA146\\ghar\\scratch-pad.sublime-project"
+			],
+			[
+				"scratch",
+				"\\\\FSDKBA146\\ghar\\scratch-pad.sublime-project"
+			],
+			[
+				"scrath",
+				"\\\\FSDKBA146\\ghar\\scratch-pad.sublime-project"
+			],
+			[
 				"auto",
-				"\\\\FSDKBA116\\ghar\\projects\\automation\\dnoc-tools\\auto customer dnoc-tools.sublime-workspace"
+				"\\\\FSDKBA146\\ghar\\projects\\automation\\dnoc-tools\\auto customer dnoc-tools.sublime-project"
 			],
 			[
 				"scrat",
@@ -392,7 +464,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

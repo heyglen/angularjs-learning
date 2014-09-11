@@ -1,0 +1,54 @@
+{
+  "columns" : [
+    "VLAN ID",
+    "NAME"
+  ],
+
+  "instances" : [
+    {
+      "primary_key" : 1,
+      "attr" :
+        [{
+          "name": "VLAN ID",
+          "value": 28,
+          "type": "integer",
+          "help" : ""
+        }, {
+          "name": "Name",
+          "value": "vlan-28",
+          "type": "string",
+          "help" : ""
+        }]
+    },
+    {
+      "primary_key" : 2,
+      "attr" :
+        [{
+          "name": "VLAN ID",
+          "value": 112,
+          "type": "integer",
+          "help" : ""
+        }, {
+          "name": "Name",
+          "value": "vlan-112",
+          "type": "string",
+          "help" : ""
+        }]
+    },
+    {
+      "primary_key" : 3,
+      "attr" :
+        [{
+          "name": "VLAN ID",
+          "value": 78,
+          "type": "integer",
+          "help" : ""
+        }, {
+          "name": "Name",
+          "value": "vlan-78",
+          "type": "string",
+          "help" : ""
+        }]
+    }
+  ]
+}
